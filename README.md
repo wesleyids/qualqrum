@@ -149,6 +149,7 @@ Validador de email
 
 ```java
 Validator.emailValid("homer.simpson@gmail.com");
+```
 
 #### TO-DO
 - Inscrição Estadual
