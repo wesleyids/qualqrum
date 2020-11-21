@@ -14,14 +14,8 @@ public class PessoaJuridica extends Pessoa {
     private String cnpj;
     private String inscricaoEstadual;
     private String dataAbertura;
-    private String codigoAtividadeEconomica;
-    private String codigoAtividadeEconomicaDescricao;
-    private String codigoNaturezaJuridica;
-    private String codigoNaturezaJuridicaDescricao;
-    private String situacaoRFB;
-    private String motivoSituacaoRFB;
-    private List<String> cnaes = new ArrayList<>();
     private String status;
+    private String site;
 
     public PessoaJuridica(Pessoa pessoa) {
         super(pessoa);
@@ -51,67 +45,19 @@ public class PessoaJuridica extends Pessoa {
         this.dataAbertura = dataAbertura;
     }
 
-    public String getCodigoAtividadeEconomica() {
-        return codigoAtividadeEconomica;
-    }
-
-    public void setCodigoAtividadeEconomica(String codigoAtividadeEconomica) {
-        this.codigoAtividadeEconomica = codigoAtividadeEconomica;
-    }
-
-    public String getCodigoAtividadeEconomicaDescricao() {
-        return codigoAtividadeEconomicaDescricao;
-    }
-
-    public void setCodigoAtividadeEconomicaDescricao(String codigoAtividadeEconomicaDescricao) {
-        codigoAtividadeEconomicaDescricao = codigoAtividadeEconomicaDescricao;
-    }
-
-    public String getCodigoNaturezaJuridica() {
-        return codigoNaturezaJuridica;
-    }
-
-    public void setCodigoNaturezaJuridica(String codigoNaturezaJuridica) {
-        codigoNaturezaJuridica = codigoNaturezaJuridica;
-    }
-
-    public String getCodigoNaturezaJuridicaDescricao() {
-        return codigoNaturezaJuridicaDescricao;
-    }
-
-    public void setCodigoNaturezaJuridicaDescricao(String codigoNaturezaJuridicaDescricao) {
-        codigoNaturezaJuridicaDescricao = codigoNaturezaJuridicaDescricao;
-    }
-
-    public String getSituacaoRFB() {
-        return situacaoRFB;
-    }
-
-    public void setSituacaoRFB(String situacaoRFB) {
-        situacaoRFB = situacaoRFB;
-    }
-
-    public String getMotivoSituacaoRFB() {
-        return motivoSituacaoRFB;
-    }
-
-    public void setMotivoSituacaoRFB(String motivoSituacaoRFB) {
-        motivoSituacaoRFB = motivoSituacaoRFB;
-    }
-
-    public List<String> getCnaes() {
-        return cnaes;
-    }
-
-    public void setCnaes(List<String> cnaes) {
-        this.cnaes = cnaes;
-    }
-
     public String getStatus() {
         return status;
     }
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public String getSite() {
+        return site;
+    }
+
+    public void setSite(String site) {
+        this.site = site;
     }
 }

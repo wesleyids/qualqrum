@@ -246,14 +246,7 @@ public class Generator {
         pessoaJuridica.setCnpj(new CNPJ().getValue());
         pessoaJuridica.setInscricaoEstadual(new InscricaoEstadual(estadosBrasil).getValue());
         pessoaJuridica.setDataAbertura(new Data().getValue());
-        pessoaJuridica.setCodigoAtividadeEconomica(null);
-        pessoaJuridica.setCodigoAtividadeEconomicaDescricao(null);
-        pessoaJuridica.setCodigoNaturezaJuridica(null);
-        pessoaJuridica.setCodigoNaturezaJuridicaDescricao(null);
-        pessoaJuridica.setSituacaoRFB(null);
-        pessoaJuridica.setMotivoSituacaoRFB(null);
-        pessoaJuridica.setCnaes(null);
-
+        pessoaJuridica.setSite(new Site(pessoa.getNome()).getValue());
         StatusEmpresa[] se = StatusEmpresa.values();
         pessoaJuridica.setStatus(se[Utils.random(se.length)].getValue());
 

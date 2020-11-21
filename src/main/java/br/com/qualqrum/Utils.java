@@ -100,4 +100,14 @@ class Utils {
 
         return false;
     }
+
+    /**
+     * Remover espacos em branco
+     *
+     * @param value
+     * @return String sem espacos em branco
+     */
+    public static String removerEspacos(String value) {
+        return value.replaceAll(" ", "");
+    }
 }

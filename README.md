@@ -157,5 +157,4 @@ Validator.emailValid("homer.simpson@gmail.com");
 - Gerar CNAE
 - Gerar CNH
 - Gerar dados de Veículo
-- Pessoa Júridica incompleto
 - Preencher ceps por estado
