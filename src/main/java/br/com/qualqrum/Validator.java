@@ -37,4 +37,12 @@ public class Validator {
     public static boolean emailValid(String email) {
         return Email.isValid(email);
     }
+
+    /**
+     * Verifica se o cnh eh valido
+     *
+     * @param   cnh String
+     * @return  boolean
+     */
+    public static boolean cnhValid(String cnh) { return CNH.isValid(cnh); }
 }
