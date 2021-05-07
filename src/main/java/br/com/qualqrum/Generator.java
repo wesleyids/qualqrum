@@ -224,6 +224,7 @@ public class Generator {
         pessoaFisica.setProfissao(new Profissao().getValue());
         pessoaFisica.setFiliacao(new Filiacao());
         pessoaFisica.setPis(new PIS().getValue());
+        pessoaFisica.setSigno(new Signo().getValue());
 
         EstadoCivil[] ec = EstadoCivil.values();
         pessoaFisica.setEstadoCivil(ec[Utils.random(ec.length)].getValue());

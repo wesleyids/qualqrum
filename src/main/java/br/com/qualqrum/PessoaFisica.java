@@ -19,6 +19,7 @@ public class PessoaFisica extends Pessoa {
     private String dataNascimento;
     private String profissao;
     private String senha;
+    private String signo;
     private int idade;
     private Filiacao filiacao;
 
@@ -119,6 +120,14 @@ public class PessoaFisica extends Pessoa {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public String getSigno() {
+        return signo;
+    }
+
+    public void setSigno(String signo) {
+        this.signo = signo;
     }
 
     public int getIdade() {
