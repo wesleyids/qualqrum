@@ -58,7 +58,11 @@ class Data {
         int maxDay = 28;
         int day = r.nextInt(maxDay - minDay) + minDay;
 
-        value = String.format("%s/%s/%s", day, month, year);
+        value = String.format("%s/%s/%s", formatNumber(day), formatNumber(month), year);
+    }
+
+    private String formatNumber(int number) {
+        return number < 10 ? "0".concat(String.valueOf(number)) : String.valueOf(number);
     }
 
     public String getValue() {
