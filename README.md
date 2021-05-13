@@ -150,6 +150,11 @@ Validador de email
 ```java
 Validator.emailValid("homer.simpson@gmail.com");
 ```
+Validador de CNH
+
+```java
+Validator.cnhValid("74309655781");
+```
 
 #### TO-DO
 - Inscrição Estadual
