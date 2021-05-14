@@ -151,7 +151,7 @@ class Constants {
 
     public static final List<String> AC_CEP = Arrays.asList("69900-084", "69900-092", "69900-159", "69900-199", "69900-226", "69900-034", "69900-090", "69900135");
 
-    public static final List<String> AL_CEP = Arrays.asList("57625-000");
+    public static final List<String> AL_CEP = Arrays.asList("57625-000", "57300-200");
 
     public static final List<String> AM_CEP = Arrays.asList("69400-000", "69899-999");
 
@@ -159,49 +159,49 @@ class Constants {
 
     public static final List<String> BA_CEP = Arrays.asList("06385-125", "35660-006", "40010-050", "40010-060", "40010-080", "28898-228");
 
-    public static final List<String> CE_CEP = Arrays.asList("");
+    public static final List<String> CE_CEP = Arrays.asList("60010-120", "60010-536");
 
-    public static final List<String> DF_CEP = Arrays.asList("");
+    public static final List<String> DF_CEP = Arrays.asList("70200-620", "70232-050");
 
-    public static final List<String> ES_CEP = Arrays.asList("");
+    public static final List<String> ES_CEP = Arrays.asList("29165-130", "29010-280");
 
-    public static final List<String> GO_CEP = Arrays.asList("");
+    public static final List<String> GO_CEP = Arrays.asList("74015-070", "74020-155");
 
-    public static final List<String> MA_CEP = Arrays.asList("");
+    public static final List<String> MA_CEP = Arrays.asList("65010-040", "65010-680");
 
-    public static final List<String> MG_CEP = Arrays.asList("");
+    public static final List<String> MG_CEP = Arrays.asList("30110-027", "30110-063");
 
-    public static final List<String> MS_CEP = Arrays.asList("");
+    public static final List<String> MS_CEP = Arrays.asList("79002-070", "79002-933");
 
-    public static final List<String> MT_CEP = Arrays.asList("");
+    public static final List<String> MT_CEP = Arrays.asList("78390-000", "78243-000");
 
-    public static final List<String> PA_CEP = Arrays.asList("");
+    public static final List<String> PA_CEP = Arrays.asList("66013-070", "66015-055");
 
-    public static final List<String> PB_CEP = Arrays.asList("");
+    public static final List<String> PB_CEP = Arrays.asList("58010-320", "58013-145");
 
-    public static final List<String> PE_CEP = Arrays.asList("");
+    public static final List<String> PE_CEP = Arrays.asList("56302-055", "56302-300");
 
-    public static final List<String> PI_CEP = Arrays.asList("");
+    public static final List<String> PI_CEP = Arrays.asList("64000-060", "64000-070");
 
-    public static final List<String> PR_CEP = Arrays.asList("");
+    public static final List<String> PR_CEP = Arrays.asList("80010-040", "80060-901");
 
-    public static final List<String> RJ_CEP = Arrays.asList("");
+    public static final List<String> RJ_CEP = Arrays.asList("22070-900", "22030-010");
 
-    public static final List<String> RN_CEP = Arrays.asList("");
+    public static final List<String> RN_CEP = Arrays.asList("59010-322", "59123-027");
 
-    public static final List<String> RO_CEP = Arrays.asList("");
+    public static final List<String> RO_CEP = Arrays.asList("76801-016", "76801-066");
 
-    public static final List<String> RR_CEP = Arrays.asList("");
+    public static final List<String> RR_CEP = Arrays.asList("69301-310", "69301-020");
 
-    public static final List<String> RS_CEP = Arrays.asList("");
+    public static final List<String> RS_CEP = Arrays.asList("962002-60", "96200-510");
 
-    public static final List<String> SC_CEP = Arrays.asList("");
+    public static final List<String> SC_CEP = Arrays.asList("88807-278", "89201-215");
 
-    public static final List<String> SE_CEP = Arrays.asList("");
+    public static final List<String> SE_CEP = Arrays.asList("49010-230", "49010-971");
 
     public static final List<String> SP_CEP = Arrays.asList("04231-030", "01310-924", "03025-001", "03027-005");
 
-    public static final List<String> TO_CEP = Arrays.asList("");
+    public static final List<String> TO_CEP = Arrays.asList("77066-044", "77064-682");
 
     public static List<String> LOGRADOUROS = Arrays.asList(
             "Rua 15 de Novembro","Rua 25 de Março","Rua Três Rios","Rua Sete de Abril","Rua Alfredo Pujol",
