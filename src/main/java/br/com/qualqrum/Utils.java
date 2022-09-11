@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * @author Wesley Inacio
  *
  */
-class Utils {
+public class Utils {
 
     public static int randomiza(int n, int x, boolean isDocumento) {
 
@@ -30,8 +30,8 @@ class Utils {
     /**
      * Retorna um numero aleatorio dentro do range de valores.
      *
-     * @param   max  Representa o numero maximo do range.
-     * @return	int
+     * @param max Representa o numero maximo do range.
+     * @return int
      */
     public static int random(int max) {
         return random(0, max);
@@ -40,9 +40,9 @@ class Utils {
     /**
      * Retorna um numero aleatorio dentro do range de valores.
      *
-     * @param   min  Representa o numero minimo do range.
-     * @param   max  Representa o numero maximo do range.
-     * @return	int
+     * @param min Representa o numero minimo do range.
+     * @param max Representa o numero maximo do range.
+     * @return int
      */
     public static int random(int min, int max) {
         return ThreadLocalRandom.current().nextInt(min, max);
@@ -51,8 +51,8 @@ class Utils {
     /**
      * Verifica se o valor tem alguma sequencia de numeros iguais.
      *
-     * @param  value			String
-     * @return					boolean
+     * @param value String
+     * @return boolean
      */
     public static boolean isSequenciaNumerosIguais(String value) {
         if (value.equals("00000000000") ||
@@ -69,8 +69,8 @@ class Utils {
     /**
      * Retorna a String sem caracteres especiais e apenas numeros.
      *
-     * @param   value  Representa o numero minimo do range.
-     * @return	string
+     * @param value Representa o numero minimo do range.
+     * @return string
      */
     public static String removerCaracteresEspeciais(String value) {
         if (value == null) {

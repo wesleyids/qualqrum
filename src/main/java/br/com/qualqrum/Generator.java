@@ -2,6 +2,37 @@ package br.com.qualqrum;
 
 import org.modelmapper.ModelMapper;
 
+import br.com.qualqrum.data.Bairro;
+import br.com.qualqrum.data.CEP;
+import br.com.qualqrum.data.CNAE;
+import br.com.qualqrum.data.CNPJ;
+import br.com.qualqrum.data.CNS;
+import br.com.qualqrum.data.CPF;
+import br.com.qualqrum.data.Cidade;
+import br.com.qualqrum.data.ContatoTelefonico;
+import br.com.qualqrum.data.Data;
+import br.com.qualqrum.data.Email;
+import br.com.qualqrum.data.Endereco;
+import br.com.qualqrum.data.EstadoCivil;
+import br.com.qualqrum.data.EstadosBrasil;
+import br.com.qualqrum.data.Filiacao;
+import br.com.qualqrum.data.InscricaoEstadual;
+import br.com.qualqrum.data.Logradouro;
+import br.com.qualqrum.data.Nome;
+import br.com.qualqrum.data.NomeEmpresa;
+import br.com.qualqrum.data.PIS;
+import br.com.qualqrum.data.Pessoa;
+import br.com.qualqrum.data.PessoaFisica;
+import br.com.qualqrum.data.PessoaJuridica;
+import br.com.qualqrum.data.Profissao;
+import br.com.qualqrum.data.RG;
+import br.com.qualqrum.data.Senha;
+import br.com.qualqrum.data.Signo;
+import br.com.qualqrum.data.Site;
+import br.com.qualqrum.data.StatusEmpresa;
+import br.com.qualqrum.data.TipoPessoa;
+import br.com.qualqrum.data.TipoSexo;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -47,7 +78,8 @@ public class Generator {
         Email email = new Email(nome.getValue());
         ContatoTelefonico contatoTelefonico = new ContatoTelefonico(estadosBrasil);
 
-        pessoa = new Pessoa(nome.getValue(), email.getValue(), contatoTelefonico.getTelefone(), contatoTelefonico.getCelular(), endereco);
+        pessoa = new Pessoa(nome.getValue(), email.getValue(), contatoTelefonico.getTelefone(),
+                contatoTelefonico.getCelular(), endereco);
     }
 
     /**
@@ -189,7 +221,7 @@ public class Generator {
      * Metodo responsavel por fazer um parse de um objeto para outro
      *
      * @param clazz
-     * @param Enum TipoPessoa
+     * @param Enum  TipoPessoa
      * @return Class<T>
      *
      * @throws IllegalArgumentException
